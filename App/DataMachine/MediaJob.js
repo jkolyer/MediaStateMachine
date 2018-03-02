@@ -12,9 +12,6 @@ const {
     STATE_UNAVAILABLE,
     STATE_PLAY,
     STATE_PAUSE,
-    
-    TYPE_PREVIEW,
-    TYPE_MIX,
 } = require('../Constants/StateConstants')
 
 var MediaMachine = StateMachine.factory({

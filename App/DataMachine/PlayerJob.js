@@ -5,8 +5,6 @@ const {
     STATE_EMPTY,
     STATE_PAUSE,
     STATE_PLAY,
-    TYPE_PREVIEW,
-    TYPE_MIX,
 } = require('../Constants/StateConstants');
 
 const BaseJob = require('./BaseJob');
